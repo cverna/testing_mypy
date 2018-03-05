@@ -3,13 +3,13 @@ from typing import List
 
 class Person():
 
-    def __init__(self, surname, firstname, age, job):
+    def __init__(self, surname: str, firstname: str, age: int, job: str) -> None:
         self.surname = surname
         self.firstname = firstname
         self.age = age
         self.job = job
 
-    def get_year_of_birth(self):
+    def get_year_of_birth(self) -> int:
         return self.age - 2018
 
 
