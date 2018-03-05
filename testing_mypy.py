@@ -19,9 +19,9 @@ def display_doctors(persons: List[Person]) -> None:
             print(f'{person.surname} {person.firstname}')
 
 
-mike = Person('Davis', 'Mike', '45', 'dentist')
+mike = Person('Davis', 'Mike', 45, 'dentist')
 john = Person('Roberts', 'John', 21, 'teacher')
-lee = Person('Willams', 'Lee', 'gp', 56)
+lee = Person('Willams', 'Lee', 56, 'gp')
 
 display_doctors([mike])
 display_doctors([mike, john, lee])
