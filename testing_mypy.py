@@ -9,9 +9,6 @@ class Person():
         self.age = age
         self.job = job
 
-    def get_year_of_birth(self) -> int:
-        return self.age - 2018
-
 
 def display_doctors(persons: List[Person]) -> None:
     for person in persons:
